@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Nanodegree Apps!!!"
+        android:text="@string/header_text"
         android:textColor="#13073A"
         android:textSize="20sp" />
 
@@ -25,11 +25,12 @@
         android:layout_height="50px" />
 
     <Button
-        android:id="@+id/btnSoptStream"
+        android:id="@+id/btnSpotStream"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:background="#877CB0"
-        android:text="Spotify Streamer" />
+        android:onClick="buttonClicked"
+        android:text="@string/spotify_streamer" />
 
     <Space
         android:layout_width="20px"
@@ -40,7 +41,8 @@
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:background="#877CB0"
-        android:text="Scores App" />
+        android:onClick="buttonClicked"
+        android:text="@string/scores_app" />
 
     <Space
         android:layout_width="20px"
@@ -51,7 +53,8 @@
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:background="#877CB0"
-        android:text="Library App" />
+        android:onClick="buttonClicked"
+        android:text="@string/library_app" />
 
     <Space
         android:layout_width="20px"
@@ -62,7 +65,8 @@
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:background="#877CB0"
-        android:text="Build It Bigger" />
+        android:onClick="buttonClicked"
+        android:text="@string/build_it_bigger" />
 
     <Space
         android:layout_width="20px"
@@ -73,7 +77,8 @@
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:background="#877CB0"
-        android:text="Bacon Reader" />
+        android:onClick="buttonClicked"
+        android:text="@string/bacon_reader" />
 
     <Space
         android:layout_width="20px"
@@ -84,5 +89,6 @@
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:background="#3C7113"
-        android:text="Capstone: My Own App" />
+        android:onClick="buttonClicked"
+        android:text="@string/capstone" />
 </LinearLayout>
